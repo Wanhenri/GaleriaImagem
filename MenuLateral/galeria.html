@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="UTF-8">
+  <title>DP6 Case - Prova Técnica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="analise"> 
+  <header class="cabecalho">
+
+  </header>
+  <main>
+
+  </main>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/tagueamento.js"></script>
+  <script lang="javascript">
+      /**
+       * seleciona o id e depois adiciona uma função que será executada
+       * quando o evento click acontecer
+       */
+
+      document.querySelector("[data-id='lorem']").addEventListener("click",() => {
+          ga('send','event','analise','ver_mais',"Lorem");
+      });
+
+      document.querySelector("[data-id='ipsum']").addEventListener("click",() => {
+          ga('send','event','analise','ver_mais',"Ipsum");
+      });
+
+      document.querySelector("[data-id='dolor']").addEventListener("click",() => {
+          ga('send','event','analise','ver_mais',"Dolor");
+      });
+
+    </script>
+
+</body>
+</html>
